@@ -9,7 +9,7 @@ __pycache__/
 env/
 venv/
 ENV/
-vet-patient-assistant-env/
+medical-doctor-assistant-env/
 env.bak/
 venv.bak/
 Vector_db/

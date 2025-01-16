@@ -1,0 +1,16 @@
+ Define the .gitignore content
+$gitignoreContent = @"
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+env/
+venv/
+ENV/
+vet-patient-assistant-env/
+env.bak/
+venv.bak/
+Vector_db/
+"@

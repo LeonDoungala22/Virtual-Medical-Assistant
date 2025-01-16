@@ -60,7 +60,9 @@ The **Virtual Health Assistant** is an AI-powered system designed to assist heal
 ---
 
 ## Demo Video
-![Demo Video](https://github.com/user-attachments/assets/220efb7a-ab88-430b-92e8-26ed27d730ee)
+
+https://github.com/user-attachments/assets/407c6f22-48ef-4854-8867-a9e70768d0c3
+
 
 ---
 

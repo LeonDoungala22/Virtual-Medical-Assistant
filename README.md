@@ -3,40 +3,31 @@
 ![Project Icon](https://github.com/LeonDoungala22/Virtual-Medical-Doctor-Assistant/blob/main/Virtual-Health-Assistant-01-16-2025_05_59_PM.png)
 
 ## Overview
-The **Virtual Health Assistant** is an AI-powered system designed to assist healthcare professionals in diagnosing and providing medical advice efficiently. It uses OpenAI's GPT-3 and LangChain technologies to offer reliable responses based on medical data. The system is designed to streamline medical consultations and enhance decision-making processes in clinical environments.
+The **Virtual Health Assistant** is an AI-powered system designed to assist healthcare professionals in diagnosing and providing medical advice efficiently. Leveraging OpenAI's and LangChain technologies, it offers reliable responses based on medical data. The system aims to streamline medical consultations and enhance decision-making processes in clinical environments.
 
-### Key Features:
-- AI-powered medical assistant for quick diagnosis and patient support.
-- Utilizes advanced natural language processing models.
-- Customizable for specific healthcare needs.
-- Integrated with APIs for enhanced functionality.
+### Key Features
+- 🩺 AI-powered medical assistant for quick diagnosis and patient support.
+- 🧠 Utilizes advanced natural language processing models.
+- ⚙️ Customizable for specific healthcare needs.
+- 🌐 Integrated with APIs for enhanced functionality.
 
 ---
 
-## Table of Contents:
+## Table of Contents
 - [Languages Used](#languages-used)
 - [Setting Up the Environment](#setting-up-the-environment)
-- [API Keys Setup](#setting-up-api-keys)
+- [API Keys Setup](#api-keys-setup)
 - [Demo Video](#demo-video)
-[![Watch the video](Virtual-Health-Assistant-01-16-2025_05_59_PM.png)](Virtual Health Assistant.mp4)
-
-
-
 - [Installation Instructions](#installation-instructions)
 
 ---
 
-## Languages Used:
-- **Python**: The core backend language used for AI model integration and handling user requests.
-- **JavaScript**: For frontend interaction (if applicable).
-- **HTML/CSS**: For creating and styling the web interface.
-- **SQL/MongoDB**: For managing data storage and retrieval.
 
----
+
 
 ## Setting Up the Environment and Installing Dependencies
 
-### For Mac/Linux/WSL:
+### For Mac/Linux/WSL
 
 1. **Create the environment and activate it:**
     ```bash
@@ -51,10 +42,10 @@ The **Virtual Health Assistant** is an AI-powered system designed to assist heal
 
 ---
 
-## Setting Up API Keys
+## API Keys Setup
 
 ### OpenAI API Key
-1. If you don't have an OpenAI API key yet, you can sign up [here](https://openai.com/index/openai-api/).
+1. If you don't have an OpenAI API key yet, sign up [here](https://openai.com/index/openai-api/).
 2. Set your `OPENAI_API_KEY` in your environment variables.
 
 ### LangSmith API Key
@@ -68,7 +59,22 @@ The **Virtual Health Assistant** is an AI-powered system designed to assist heal
 
 ---
 
+## Demo Video
+![Demo Video](https://github.com/user-attachments/assets/220efb7a-ab88-430b-92e8-26ed27d730ee)
+
+---
+
 ## Upgrade pip (optional)
-To ensure you're using the latest version of `pip`, run:
+To ensure you have the latest version of pip, you can upgrade it using the following command:
 ```bash
 pip install --upgrade pip
+
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Collaboration
+For any collaboration inquiries, please contact Leon Doungala at doungala.leon@gmail.com.
+
+Copyright
+© 2023 Leon Doungala. All rights reserved. ```

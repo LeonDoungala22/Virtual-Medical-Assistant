@@ -17,7 +17,6 @@ The **Virtual Health Assistant** is an AI-powered system designed to assist indi
 - [Languages Used](#languages-used)
 - [Setting Up the Environment](#setting-up-the-environment)
 - [API Keys Setup](#api-keys-setup)
-- [Demo Video](#demo-video)
 - [Installation Instructions](#installation-instructions)
 
 ---
@@ -64,24 +63,10 @@ git clone https://github.com/LeonDoungala22/Virtual-Medical-Doctor-Assistant.git
 
 ---
 
-## Demo Video
-
-https://github.com/user-attachments/assets/407c6f22-48ef-4854-8867-a9e70768d0c3
-
----
-
 ## Upgrade pip (optional)
 To ensure you have the latest version of pip, you can upgrade it using the following command:
 ```bash
 pip install --upgrade pip
-```
-
----
-
-## Clone Repository
-To clone the repository, use the following command:
-```bash
-git clone https://github.com/LeonDoungala22/Virtual-Medical-Doctor-Assistant.git
 ```
 
 ---

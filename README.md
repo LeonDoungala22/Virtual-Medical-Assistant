@@ -22,8 +22,13 @@ The **Virtual Health Assistant** is an AI-powered system designed to assist heal
 
 ---
 
+## Clone Repository
+To clone the repository, use the following command:
+```bash
+git clone https://github.com/LeonDoungala22/Virtual-Medical-Doctor-Assistant.git
+```
 
-
+---
 
 ## Setting Up the Environment and Installing Dependencies
 
@@ -80,4 +85,4 @@ Collaboration
 For any collaboration inquiries, please contact me  Leon Doungala at doungala.leon@gmail.com.
 
 Copyright
-© 2023 Leon Doungala. All rights reserved. 
+© 2023 Leon Doungala. All rights reserved.

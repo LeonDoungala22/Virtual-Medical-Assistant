@@ -59,6 +59,8 @@ def run(assistant):
         
         
         
+        
+        
 # Handle patient question
 def handle_patient_query(assistant, patient_input, chat_history):
     """

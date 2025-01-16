@@ -1,17 +1,21 @@
- Define the .gitignore content
-$gitignoreContent = @"
+# Python bytecode files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Python virtual environments
 .Python
 .env
-.DS_Store
 env/
 venv/
 ENV/
 medical-doctor-assistant-env/
 env.bak/
 venv.bak/
+
+# macOS system files
+.DS_Store
+
+# Database files
 Vector_db/
-"@

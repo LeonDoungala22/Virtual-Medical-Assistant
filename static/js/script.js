@@ -1,6 +1,21 @@
 $(document).ready(function () {
     const chatBox = $("#chat-box");
 
+    // Function to clean up markdown characters
+    function cleanMarkdown(message) {
+        // Remove markdown characters like * , _ , # , etc.
+        const cleanedMessage = message
+            .replace(/\*\*(.*?)\*\*/g, '$1')  // Remove bold syntax (**bold**)
+            .replace(/\*(.*?)\*/g, '$1')      // Remove italics (*italic*)
+            .replace(/_(.*?)_/g, '$1')        // Remove italics (_italic_)
+            .replace(/`(.*?)`/g, '$1')        // Remove inline code (`code`)
+            .replace(/~~(.*?)~~/g, '$1')      // Remove strikethrough (~~strikethrough~~)
+            .replace(/^#\s+(.*)$/gm, '$1')    // Remove headers (e.g., # Header)
+            .replace(/\n/g, '<br>');          // Keep new lines as <br> for separation
+        
+        return cleanedMessage;
+    }
+
     function appendMessage(sender, message) {
         const timestamp = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
@@ -9,11 +24,14 @@ $(document).ready(function () {
             ? '<i class="fas fa-user" style="font-size: 20px;"></i>' 
             : '<i class="fas fa-robot" style="font-size: 20px;"></i>';
         
+        // Clean the message to remove markdown characters
+        const cleanedMessage = cleanMarkdown(message);
+
         const messageHtml = `
             <div class="message ${sender === "You" ? "patient" : "assistant"}">
                 <div class="icon">${senderIcon}</div>
                 <div class="content">
-                    <p>${message}</p>
+                    <p>${cleanedMessage}</p>
                     <div class="timestamp">${timestamp}</div>
                 </div>
             </div>

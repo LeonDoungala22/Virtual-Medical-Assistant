@@ -31,16 +31,18 @@ class VirtualHealthAssistant:
         # Load environment variables from .env file
         load_dotenv()
 
-        # Initialize the OpenAI model
+        
+        # Initialize the OpenAI model with dynamic response generation
         self.llm = ChatOpenAI(
             model_name="gpt-4o-mini",
-            temperature=0.7,
+            temperature=0.75,  # Increase creativity and randomness
             model_kwargs={
-                "top_p": 0.9,
-                "frequency_penalty": 0.4,
-                "presence_penalty": 0.1
+                "top_p": 0.85,  # Refine choices for more varied output
+                "frequency_penalty": 0.7,  # Limit repetitive phrases
+                "presence_penalty": 0.4  # Encourage new ideas and unique responses
             }
         )
+
         
         # Define the prompt template for patient interaction in French
         patient_prompt_template = get_patient_prompt_template_text()

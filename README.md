@@ -69,6 +69,7 @@ https://github.com/user-attachments/assets/407c6f22-48ef-4854-8867-a9e70768d0c3
 ## Upgrade pip (optional)
 To ensure you have the latest version of pip, you can upgrade it using the following command:
 ```bash
+
 pip install --upgrade pip
 
 
@@ -76,7 +77,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Collaboration
-For any collaboration inquiries, please contact Leon Doungala at doungala.leon@gmail.com.
+For any collaboration inquiries, please contact me  Leon Doungala at doungala.leon@gmail.com.
 
 Copyright
-© 2023 Leon Doungala. All rights reserved. ```
+© 2023 Leon Doungala. All rights reserved. 

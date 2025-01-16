@@ -97,4 +97,4 @@ For any collaboration inquiries, please contact Leon Doungala at [doungala.leon@
 ---
 
 ## Copyright
-© 2023 Leon Doungala. All rights reserved.
+© 2025 Leon Doungala. All rights reserved.

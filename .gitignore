@@ -6,6 +6,7 @@ __pycache__/
 *.pyd
 .Python
 .env
+.DS_Store
 env/
 venv/
 ENV/

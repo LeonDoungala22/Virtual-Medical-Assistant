@@ -1,24 +1,162 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.header-icon {
+    width: 50px;
+    height: 50px;
 }
 
 #chat-box {
-    height: 400px;
-    overflow-y: auto;
-    background-color: #ffffff;
-    padding: 10px;
-    border: 1px solid #ddd;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-height: 500px; /* Adjusted height */
+    overflow-y: auto; /* Add scrollbar */
 }
 
-.input-group {
-    margin-top: 15px;
+.message {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: flex-start;
+    word-wrap: break-word;  /* Ensure long words break correctly */
 }
 
-.text-end {
-    text-align: right;
+/* User bubble (patient) - color and position adjustment */
+.message.patient {
+    flex-direction: row;  /* Align user messages to the left */
+    margin-right: auto;  /* Force left alignment */
 }
 
-.text-start {
+.message.patient .content {
+    background-color: #4e4e4e; /* Darker gray for user messages */
+    color: #ffffff; /* White text */
     text-align: left;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px 0;
+    max-width: 70%;  /* Reduce max-width to provide more space */
+    font-size: 1rem;
+    background-color: #3a3a3a; /* Background color for user messages */
+}
+
+/* AI assistant bubble - color and position adjustment */
+.message.assistant {
+    flex-direction: row-reverse;  /* Force right alignment */
+    margin-left: auto;  /* Force right alignment */
+}
+
+.message.assistant .content {
+    background-color: #0069d9;  /* Blue for AI messages */
+    color: white;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px 0;
+    max-width: 70%;  /* Reduce max-width to provide more space */
+    font-size: 1rem;
+    background-color: #0069d9; /* Background color for AI assistant messages */
+}
+
+/* Preserve markdown structure for AI response */
+.message-content {
+    white-space: pre-wrap;  /* Preserve white space for markdown structure */
+}
+
+/* Handling lists and other markdown elements */
+.message-content ul, .message-content ol {
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.message-content li {
+    margin-bottom: 5px;
+}
+
+.message-content h1, .message-content h2, .message-content h3 {
+    color: #fff;
+}
+
+.message-content a {
+    color: #0069d9;
+    text-decoration: underline;
+}
+
+.message-content blockquote {
+    border-left: 4px solid #444;
+    padding-left: 10px;
+    color: #aaa;
+}
+
+/* Input styles */
+.input-group {
+    margin-top: 20px;
+}
+
+#user-input {
+    font-size: 1rem;
+    border-color: transparent;  /* Remove border color */
+}
+
+#user-input:focus {
+    border-color: transparent;  /* Remove border color on focus */
+    box-shadow: inset 0px 0px 0px 1px transparent;  /* Remove box shadow on focus */
+}
+
+#send-btn {
+    font-size: 1rem;
+}
+
+.timestamp {
+    font-size: 0.8rem;
+    color: #888;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Scroll bar for chat box */
+.chat-history {
+    scrollbar-color: #0069d9 #121212;
+    scrollbar-width: thin;
+}
+
+.chat-history::-webkit-scrollbar {
+    width: 10px;
+}
+
+.chat-history::-webkit-scrollbar-thumb {
+    background-color: #0069d9;
+    border-radius: 10px;
+}
+
+.chat-history::-webkit-scrollbar-track {
+    background-color: #121212;
+}
+
+/* Button colors */
+.btn-primary {
+    background-color: #0069d9;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Divider styles */
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
 }

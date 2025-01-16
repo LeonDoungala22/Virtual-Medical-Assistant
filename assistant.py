@@ -4,7 +4,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import LLMChain
-from printer import Printer
+from utils.printer import Printer
 from prompt_templates import get_patient_prompt_template_text
 from dotenv import load_dotenv
 

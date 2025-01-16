@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+#chat-box {
+    height: 400px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.input-group {
+    margin-top: 15px;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.text-start {
+    text-align: left;
+}

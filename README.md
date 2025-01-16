@@ -3,7 +3,7 @@
 ![Project Icon](https://github.com/LeonDoungala22/Virtual-Medical-Doctor-Assistant/blob/main/Virtual-Health-Assistant-01-16-2025_05_59_PM.png)
 
 ## Overview
-The **Virtual Health Assistant** is an AI-powered system designed to assist healthcare professionals in diagnosing and providing medical advice efficiently. Leveraging OpenAI's and LangChain technologies, it offers reliable responses based on medical data. The system aims to streamline medical consultations and enhance decision-making processes in clinical environments.
+The **Virtual Health Assistant** is an AI-powered system designed to assist individuals by providing helpful, reassuring, and medically sound guidance based on their symptoms. Leveraging OpenAI's and LangChain technologies, it offers reliable responses based on medical data. The system aims to streamline medical consultations and enhance decision-making processes in clinical environments.
 
 ### Key Features
 - 🩺 AI-powered medical assistant for quick diagnosis and patient support.
@@ -68,21 +68,33 @@ git clone https://github.com/LeonDoungala22/Virtual-Medical-Doctor-Assistant.git
 
 https://github.com/user-attachments/assets/407c6f22-48ef-4854-8867-a9e70768d0c3
 
-
 ---
 
 ## Upgrade pip (optional)
 To ensure you have the latest version of pip, you can upgrade it using the following command:
 ```bash
-
 pip install --upgrade pip
+```
 
+---
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Clone Repository
+To clone the repository, use the following command:
+```bash
+git clone https://github.com/LeonDoungala22/Virtual-Medical-Doctor-Assistant.git
+```
 
-Collaboration
-For any collaboration inquiries, please contact me  Leon Doungala at doungala.leon@gmail.com.
+---
 
-Copyright
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Collaboration
+For any collaboration inquiries, please contact Leon Doungala at [doungala.leon@gmail.com](mailto:doungala.leon@gmail.com).
+
+---
+
+## Copyright
 © 2023 Leon Doungala. All rights reserved.

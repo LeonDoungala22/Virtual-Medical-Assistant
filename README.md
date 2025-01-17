@@ -1,6 +1,6 @@
 # Virtual Health Assistant
 
-![Project Icon](https://github.com/LeonDoungala22/Virtual-Medical-Doctor-Assistant/blob/main/Virtual-Health-Assistant-01-16-2025_05_59_PM.png)
+![Project Icon](Virtual-Health-Assistant-01-17-2025_10_13_AM.png)
 
 ## Overview
 The **Virtual Health Assistant** is an AI-powered system designed to assist individuals by providing helpful, reassuring, and medically sound guidance based on their symptoms. Leveraging OpenAI's and LangChain technologies, it offers reliable responses based on medical data. The system aims to streamline medical consultations and enhance decision-making processes in clinical environments.
@@ -55,10 +55,11 @@ git clone https://github.com/LeonDoungala22/Virtual-Medical-Doctor-Assistant.git
 ### LangSmith API Key
 1. Sign up for LangSmith [here](https://smith.langchain.com/).
 2. Learn more about LangSmith and how to use it within your workflow [here](https://www.langchain.com/langsmith), and check out the relevant library [documentation](https://docs.smith.langchain.com/).
-3. Set the following environment variables:
+3. Set the following environment variables ( .env) :
     ```bash
     LANGCHAIN_API_KEY=<your-api-key>
     LANGCHAIN_TRACING_V2=true
+    LANGSMITH_PROJECT="your project name"
     ```
 
 ---

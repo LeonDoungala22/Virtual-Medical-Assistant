@@ -1,4 +1,4 @@
-# Virtual Health Assistant
+# AI Health Assistant
 
 ![Project Icon](Virtual-Health-Assistant-01-17-2025_10_13_AM.png)
 
